@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    max-width: 800px;
+    padding: 40px;
+    background-color: #000000;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: none;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.spacer {
+    margin: 0 20px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.choice-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.choice-img {
+    width: 150px; 
+    height: 150px; 
+    object-fit: contain; 
+    margin-bottom: 10px;
+}
+
+.choice-btn {
+    font-size: 24px;
+    padding: 20px 30px;
+    background-color: #0000ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 20px #0000ff;
+    border-radius: 10px;
+}
+
+.reset-btn{
+	font-size: 24px;
+    padding: 20px 10px;
+    background-color: #0000ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 20px #0000ff;
+    border-radius: 10px;
+
+}
+
+
+.choice-btn:hover, .reset-btn:hover {
+    background-color: #0000cc;
+    box-shadow: 0 0 40px #0000ff;
+}
+
+.result {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.win {
+    color: green;
+}
+
+.lose {
+    color: red;
+}
+
+.tie {
+    color: yellow;
+}
